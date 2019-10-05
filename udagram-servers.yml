@@ -45,9 +45,7 @@ Resources:
                     Action: 
                     -   s3:Get*
                     -   s3:List*
-                    Resource: 
-                    -   arn:aws:s3:::udacity-website-project-one
-                    -   arn:aws:s3:::udacity-website-project-one/*
+                    Resource: "*"
             Roles:
             -   Ref: RootRole
 
